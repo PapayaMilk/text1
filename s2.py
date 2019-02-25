@@ -32,3 +32,8 @@
 #     for j in range(1, i+1):
 #         print('%s * %s = %s' % (i, j, i * j))
 
+
+# a = "some_string"
+# print(id(a))
+# b = "some" + "_" + "string"
+# print(id(b))
