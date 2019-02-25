@@ -37,3 +37,54 @@
 # print(id(a))
 # b = "some" + "_" + "string"
 # print(id(b))
+
+# a = "wtf"
+# b = "".join(['w', 't', 'f'])
+# print(id(a), id(b))
+# 2389937252312 2389938017480
+
+# some_dict = dict()
+# some_dict[5.5] = "Ruby"
+# some_dict[5.0] = "JavaScript"
+# some_dict[5] = "Python"
+#
+# print(some_dict[5])
+
+# def some_func():
+#     try:
+#         return 'from_try'
+#     finally:
+#         return 'from_finally'
+#
+#
+# print(some_func())
+
+# some_string = "wtf"
+# some_dict = {}
+# for i, some_dict[i] in enumerate(some_string):
+#     pass
+# print(some_dict)
+
+# for i in range(4):
+#     print(i)
+#     i = 10
+
+# array = [1, 8, 15]
+# g = (x for x in array if array.count(x) > 0)
+# array = [2, 8, 22]
+# print(list(g))
+
+# array_1 = [1, 2, 3, 4]
+# g1 = (x for x in array_1)
+# array_1 = [1, 2, 3, 4, 5]
+# print(list(g1))
+#
+# array_2 = [1, 2, 3, 4]
+# g2 = (x for x in array_2)
+# array_2[:] = [1, 2, 3, 4, 5]
+# print(list(g2))
+
+# a = 1024; b = 1024
+# print(a is b)
+
+print([] is [])
